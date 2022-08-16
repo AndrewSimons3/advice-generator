@@ -9,6 +9,8 @@ const fetchAdvice = async () => {
 	return data;
 };
 
+fetchAdvice();
+
 const generateAdvice = async () => {
 	const advice = await fetchAdvice();
 	console.log(advice);
