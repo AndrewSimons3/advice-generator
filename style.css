@@ -54,7 +54,8 @@ h2 {
 	font-family: 'Manrope', sans-serif;
 	font-size: 28px;
 	color: var(--lightCyan);
-	margin-bottom: 1rem;
+	
+  height: 70%;
 }
 
 .dice {
