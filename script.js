@@ -15,8 +15,8 @@ const generateAdvice = async () => {
 	const advice = await fetchAdvice();
 	console.log(advice);
 
-	adviceText.innerHTML = `${advice.slip.advice}`;
-	adviceId.innerHTML = `${advice.slip.id}`;
+	adviceText.innerText = advice.slip.advice;
+	adviceId.innerText = advice.slip.id;
 };
 
 adviceBtn.addEventListener('click', generateAdvice);
